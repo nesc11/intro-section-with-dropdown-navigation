@@ -217,6 +217,24 @@ header {
     gap: 1em;
 }
 
+.navigation .first>*:hover,
+.navigation .second>*:hover {
+    cursor: pointer;
+    color: var(--clr-neutral-almost-black);
+}
+
+.arrow-up {
+    display: none;
+}
+
+.arrow-down.expanded {
+    display: none;
+}
+
+.arrow-up.expanded {
+    display: block;
+}
+
 /* Main */
 .intro-text-container {
     width: 95%;

@@ -10,7 +10,11 @@ hamburger.addEventListener('click', () => {
 
 dropdownTriggerFeatures.addEventListener('click', () => {
     document.querySelector('.dropdown-container-features').classList.toggle('expanded')
+    dropdownTriggerFeatures.querySelector('.arrow-down').classList.toggle('expanded')
+    dropdownTriggerFeatures.querySelector('.arrow-up').classList.toggle('expanded')
 })
 dropdownTriggerCompany.addEventListener('click', () => {
     document.querySelector('.dropdown-container-company').classList.toggle('expanded')
+    dropdownTriggerCompany.querySelector('.arrow-down').classList.toggle('expanded')
+    dropdownTriggerCompany.querySelector('.arrow-up').classList.toggle('expanded')
 })
